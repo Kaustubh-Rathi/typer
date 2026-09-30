@@ -1,0 +1,24 @@
+def fib(n):
+    if n <= 1:
+        return n
+    return fib(n - 1) + fib(n - 2)
+
+
+class Stack:
+    def __init__(self):
+        self.items = []
+
+    def push(self, value):
+        self.items.append(value)
+
+    def pop(self):
+        if not self.items:
+            raise IndexError("pop from empty stack")
+        return self.items.pop()
+
+    def peek(self):
+        return self.items[-1] if self.items else None
+
+
+for i in range(10):
+    print(f"fib({i}) = {fib(i)}")

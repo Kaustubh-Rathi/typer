@@ -1,0 +1,10 @@
+The quick brown fox jumps over the lazy dog.
+
+This file is a plain-prose sample, useful for checking that the typer
+handles ordinary text - long paragraphs, punctuation and blank lines -
+without any indentation logic getting in the way.
+
+Prose has no leading whitespace, so --auto-indent smart and
+--auto-indent raw behave identically here. Type it with:
+
+    python main.py --file .\sample-prose.txt

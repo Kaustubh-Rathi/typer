@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Environments and editors
+.venv/
+venv/
+.vscode/
+.idea/
+
+# Test and tooling output
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Local scratch output from live_test.py / manual diagnostics
+_*.txt
+live_proof.bmp
